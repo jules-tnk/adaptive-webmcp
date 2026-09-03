@@ -1,4 +1,4 @@
-import { AlertTriangle, Bot, CheckCircle2, LockKeyhole, Trash2, UnlockKeyhole } from "lucide-react";
+import { AlertTriangle, Bot, CheckCircle2, LockKeyhole, PanelRightClose, PanelRightOpen, Trash2, UnlockKeyhole } from "lucide-react";
 import { useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -11,6 +11,7 @@ import { useStudioStore } from "@/state/store";
 import { ActivityPanel } from "./activity-panel";
 import { PhysicalInspector } from "./physical-inspector";
 import { WorkspaceView } from "@/physical/physical-design";
+import { WorkspaceInspectorTab } from "./workspace-url-state";
 
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
   return <label className="block"><span className="mb-1.5 block text-[11px] font-medium text-muted-foreground">{label}</span>{children}</label>;
@@ -71,16 +72,29 @@ function BenchInspector() {
   </div>;
 }
 
-export function InspectorPanel() {
+interface InspectorPanelProps {
+  readonly collapsed?: boolean;
+  readonly onCollapsedChange?: (collapsed: boolean) => void;
+  readonly activeTab?: WorkspaceInspectorTab;
+  readonly onActiveTabChange?: (tab: WorkspaceInspectorTab) => void;
+}
+
+export function InspectorPanel({ collapsed = false, onCollapsedChange = () => undefined, activeTab = WorkspaceInspectorTab.Inspector, onActiveTabChange = () => undefined }: InspectorPanelProps) {
   const selection = useStudioStore((state) => state.selection);
   const mode = useStudioStore((state) => state.mode);
   const workspaceView = useStudioStore((state) => state.workspaceView);
+  if (collapsed) {
+    return <aside aria-label="Inspector panel" className="instrument-panel flex min-h-0 w-11 shrink-0 flex-col items-center border-y-0 border-r-0 py-2 transition-[width] duration-200 motion-reduce:transition-none">
+      <Button type="button" size="icon" variant="ghost" aria-label="Expand inspector panel" aria-expanded="false" onClick={() => onCollapsedChange(false)}><PanelRightOpen className="h-4 w-4"/></Button>
+      <span className="mt-3 [writing-mode:vertical-rl] text-[10px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">Inspector</span>
+    </aside>;
+  }
   return (
-    <aside className="instrument-panel flex min-h-0 w-[338px] shrink-0 flex-col border-y-0 border-r-0">
-      <Tabs defaultValue="inspector" className="flex min-h-0 flex-1 flex-col p-3">
-        <TabsList className="grid w-full grid-cols-2"><TabsTrigger value="inspector">Inspector</TabsTrigger><TabsTrigger value="activity">Activity</TabsTrigger></TabsList>
-        <TabsContent value="inspector" className="min-h-0 flex-1 overflow-y-auto px-1 pb-4">{workspaceView !== WorkspaceView.Circuit ? <PhysicalInspector/> : mode === "bench" ? <BenchInspector /> : selection?.type === "component" ? <ComponentInspector id={selection.id} /> : selection?.type === "wire" ? <WireInspector id={selection.id} /> : <EmptyInspector />}</TabsContent>
-        <TabsContent value="activity" className="min-h-0 flex-1 overflow-y-auto px-1 pb-4"><ActivityPanel /></TabsContent>
+    <aside aria-label="Inspector panel" className="instrument-panel flex min-h-0 w-[338px] shrink-0 flex-col border-y-0 border-r-0 transition-[width] duration-200 motion-reduce:transition-none">
+      <Tabs value={activeTab} onValueChange={(value) => { if (value === WorkspaceInspectorTab.Inspector || value === WorkspaceInspectorTab.Activity) onActiveTabChange(value); }} className="flex min-h-0 flex-1 flex-col p-3">
+        <div className="flex items-center gap-2"><TabsList className="grid min-w-0 flex-1 grid-cols-2"><TabsTrigger value={WorkspaceInspectorTab.Inspector}>Inspector</TabsTrigger><TabsTrigger value={WorkspaceInspectorTab.Activity}>Activity</TabsTrigger></TabsList><Button type="button" size="icon" variant="ghost" className="h-8 w-8 shrink-0" aria-label="Collapse inspector panel" aria-expanded="true" onClick={() => onCollapsedChange(true)}><PanelRightClose className="h-4 w-4"/></Button></div>
+        <TabsContent value={WorkspaceInspectorTab.Inspector} className="min-h-0 flex-1 overflow-y-auto px-1 pb-4">{workspaceView !== WorkspaceView.Circuit ? <PhysicalInspector/> : mode === "bench" ? <BenchInspector /> : selection?.type === "component" ? <ComponentInspector id={selection.id} /> : selection?.type === "wire" ? <WireInspector id={selection.id} /> : <EmptyInspector />}</TabsContent>
+        <TabsContent value={WorkspaceInspectorTab.Activity} className="min-h-0 flex-1 overflow-y-auto px-1 pb-4"><ActivityPanel /></TabsContent>
       </Tabs>
     </aside>
   );

@@ -75,10 +75,12 @@ The same commands run in GitHub Actions.
 - version-1 to version-2 migration and deterministic physical placement reconciliation;
 - bounded physical import schemas plus persisted board and per-component placement edits;
 - schema-valid PCB board, package, pad, port, trace, CAD bounding-box, and SVG output for all 21 catalog components;
-- lazy six-angle simplified 3D rendering with zoom, error containment, and no external assets;
+- lazy interactive `CadViewer` rendering, denied external assets, WebGL error containment, and six-angle SVG fallback;
+- CadViewer readiness spinner and stationary-camera contract plus URL-synchronized mode, workspace view, Inspector/Activity tab, and independent panel collapse controls;
+- canonical default omission, invalid query cleanup, reload restoration, and Simulate-to-Circuit conflict normalization;
 - accessible Circuit, PCB Preview, and 3D Preview switching.
 
-The production build keeps both optional runtimes out of initial module preloads. The verified build produced a 118.98 kB raw (42.11 kB gzip) lazy 3D chunk and a 7.20 MB raw (2.46 MB gzip) lazy local-ngspice chunk.
+The production build keeps all optional runtimes out of initial module preloads. The CadViewer integration produces a 2.21 MB raw (654.35 kB gzip) lazy WebGL chunk, the fallback remains 118.98 kB raw (42.12 kB gzip), and local ngspice remains 7.20 MB raw (2.46 MB gzip).
 
 ## Launchpad tests
 

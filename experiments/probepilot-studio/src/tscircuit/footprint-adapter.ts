@@ -93,7 +93,6 @@ export class FootprintAdapter {
       rotation: { x: 0, y: 0, z: placement.rotationDegrees },
       size: { x: spec.widthMm, y: spec.heightMm, z: spec.packageHeightMm },
       layer: placement.side,
-      footprinter_string: placement.footprint,
       model_object_fit: "contain_within_bounds",
       show_as_bounding_box: true,
       anchor_alignment: "center_of_component_on_board_surface"

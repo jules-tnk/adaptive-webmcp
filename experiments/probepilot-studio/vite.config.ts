@@ -5,7 +5,9 @@ import path from "node:path";
 export default defineConfig({
   plugins: [react()],
   resolve: {
+    dedupe: ["react", "react-dom", "three"],
     alias: {
+      "@tscircuit/core": path.resolve(__dirname, "./src/tscircuit/tscircuit-core-shim.ts"),
       "@": path.resolve(__dirname, "./src"),
       "lib": path.resolve(__dirname, "./node_modules/@tscircuit/props/lib"),
       "module": path.resolve(__dirname, "./src/tscircuit/browser-node-module-shim.ts")
@@ -31,6 +33,7 @@ export default defineConfig({
   },
   test: {
     environment: "jsdom",
-    setupFiles: ["./src/tests/setup.ts"]
+    setupFiles: ["./src/tests/setup.ts"],
+    server: { deps: { inline: ["@tscircuit/3d-viewer"] } }
   }
 });

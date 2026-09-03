@@ -24,6 +24,7 @@ describe("FootprintAdapter", () => {
     expect(result.elements.filter((element) => element.type === "pcb_port")).toHaveLength(9);
     expect(result.elements.filter((element) => element.type === "pcb_trace")).toHaveLength(5);
     expect(result.elements.filter((element) => element.type === "cad_component")).toHaveLength(5);
+    expect(result.elements.filter((element) => element.type === "cad_component").every((element) => !("footprinter_string" in element))).toBe(true);
     expect(result.elements.filter((element) => element.type === "pcb_silkscreen_rect")).toHaveLength(5);
     expect(result.elements.filter((element) => element.type === "pcb_silkscreen_text")).toHaveLength(5);
   });

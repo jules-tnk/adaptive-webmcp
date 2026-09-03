@@ -39,12 +39,12 @@ The actual npm symbol package is unscoped `schematic-symbols`; `@tscircuit/schem
 - `circuit-to-svg@0.0.411`
 - `@tscircuit/alphabet@0.0.26`
 - `@tscircuit/circuit-json-util@0.0.111`
-- `@tscircuit/core@0.0.1816`
+- `@tscircuit/core@0.0.1830`
 - `@tscircuit/3d-viewer@0.0.597`
 - `circuit-json-to-simple-3d@0.0.10`
 - `@tscircuit/simple-3d-svg@0.0.41`
 
-Implementation note (2026-09-03): `@tscircuit/3d-viewer` and `@tscircuit/core` were evaluated after the React 19 upgrade, but their browser bundle introduced an open-ended undeclared peer dependency chain in this application. They were removed rather than shipping a fragile or network-dependent viewer. The completed release lazy-loads the local `circuit-json-to-simple-3d` renderer directly, provides six angles and zoom, and uses only generated CAD bounding boxes. Full WebGL `CadViewer` remains a future enhancement, not a hidden fallback claim.
+Implementation note (2026-09-03): `@tscircuit/3d-viewer` imports `@tscircuit/core` for its unused JSX-children conversion mode, and that core entry imports undeclared peers. The hackathon integration keeps the exact viewer and core versions installed but aliases the runtime core import to a narrow compatibility shim because ProbePilot supplies Circuit JSON directly. `CadViewer` runs lazily with its local JSCAD engine and generic CAD bounding boxes; external model URLs and the optional Manifold CDN loader are disabled. The local six-angle SVG renderer remains the failure fallback.
 
 `@tscircuit/3d-viewer@0.0.597` requires React and React DOM 19.1.0. The third stage upgrades ProbePilot from React 18.3.1 to 19.1.0 only after the first two stages pass their complete gates.
 
@@ -135,7 +135,7 @@ Version-1 projects migrate by generating deterministic placements. Circuit, PCB 
 - The inspector renders schema-backed property controls and footprint metadata.
 - A secondary workspace switcher provides `Circuit`, `PCB Preview`, and `3D Preview`.
 - PCB uses `circuit-to-svg` with no editing.
-- 3D lazy-loads `circuit-json-to-simple-3d` with six angle presets, zoom, and an error boundary.
+- 3D lazy-loads `CadViewer` for WebGL camera controls and keeps `circuit-json-to-simple-3d` behind the error boundary as the fallback.
 - Simulate explains the selected engine and lists exact unsupported components.
 - Bench stays disabled unless every component in the active circuit is Bench-capable.
 
@@ -150,7 +150,7 @@ Inspection returns component capability levels, selected simulation engine, comp
 - A missing SPICE model blocks SPICE execution before the engine runs.
 - ngspice load or execution failure leaves the deterministic challenge engine available and shows a retryable failure.
 - Missing CAD assets use generic package geometry; external asset URLs do not load unless explicitly allowed by the resolver.
-- A 3D module or render failure leaves Circuit and PCB views usable and shows an explicit local-preview error.
+- A 3D module, WebGL, or render failure leaves Circuit and PCB views usable and loads the simplified local SVG preview.
 - Version-1 imports migrate without losing IDs, activities, or circuit revisions.
 
 ## Test strategy
@@ -160,7 +160,7 @@ Inspection returns component capability levels, selected simulation engine, comp
 - Compare deterministic and SPICE results for voltage-divider, RC, switched-LED, diode, and open-path fixtures within stated tolerances.
 - Verify unsupported components prevent partial simulation.
 - Prove hidden bench faults remain absent from Circuit JSON and all preview payloads.
-- Snapshot PCB and simplified 3D output; run browser interaction tests for lazy view loading and switching.
+- Snapshot PCB and simplified fallback output; run browser interaction tests for lazy CadViewer loading, camera interaction, and switching.
 - Run all existing 44 tests, new tests, TypeScript, production build, and the complete WebMCP demo after every stage.
 
 ## Non-goals

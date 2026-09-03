@@ -1,10 +1,16 @@
-import { AlertTriangle, CheckCircle2, CircuitBoard, FlaskConical, Info, LoaderCircle } from "lucide-react";
+import { AlertTriangle, CheckCircle2, CircuitBoard, FlaskConical, Info, LoaderCircle, PanelLeftClose, PanelLeftOpen } from "lucide-react";
 import { Badge, type BadgeProps } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { ComponentPalette } from "./component-palette";
 import { SimulationEngineId } from "@/simulation/simulation-engine";
 import { SimulationRunStatus, useStudioStore } from "@/state/store";
 
-export function LeftPanel() {
+interface LeftPanelProps {
+  readonly collapsed?: boolean;
+  readonly onCollapsedChange?: (collapsed: boolean) => void;
+}
+
+export function LeftPanel({ collapsed = false, onCollapsedChange = () => undefined }: LeftPanelProps) {
   const mode = useStudioStore((state) => state.mode);
   const design = useStudioStore((state) => state.design);
   const simulation = useStudioStore((state) => state.simulation);
@@ -51,11 +57,19 @@ export function LeftPanel() {
     panelTitle = "Simulation";
   }
 
+  if (collapsed) {
+    return <aside aria-label="Components panel" className="instrument-panel flex min-h-0 w-11 shrink-0 flex-col items-center border-y-0 border-l-0 py-2 transition-[width] duration-200 motion-reduce:transition-none">
+      <Button type="button" size="icon" variant="ghost" aria-label="Expand components panel" aria-expanded="false" onClick={() => onCollapsedChange(false)}><PanelLeftOpen className="h-4 w-4"/></Button>
+      <span className="mt-3 [writing-mode:vertical-rl] rotate-180 text-[10px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">{panelTitle}</span>
+    </aside>;
+  }
+
   return (
-    <aside className="instrument-panel flex min-h-0 w-[258px] shrink-0 flex-col border-y-0 border-l-0">
+    <aside aria-label="Components panel" className="instrument-panel flex min-h-0 w-[258px] shrink-0 flex-col border-y-0 border-l-0 transition-[width] duration-200 motion-reduce:transition-none">
       <div className="flex h-11 items-center gap-2 border-b border-border px-4">
         {panelIcon}
         <span className="text-sm font-semibold">{panelTitle}</span>
+        <Button type="button" size="icon" variant="ghost" className="ml-auto h-7 w-7" aria-label="Collapse components panel" aria-expanded="true" onClick={() => onCollapsedChange(true)}><PanelLeftClose className="h-4 w-4"/></Button>
       </div>
       <div className={mode === "design" ? "min-h-0 flex-1 overflow-hidden" : "min-h-0 flex-1 overflow-y-auto p-4"}>
         {mode === "design" && <ComponentPalette />}

@@ -9,6 +9,8 @@
 
 Unknown project IDs return to the launchpad with an explanatory message. Opening the deterministic demo creates a normal editable project copy with a new ID.
 
+The studio uses canonical query parameters for reloadable UI state: `mode=simulate`, `view=pcb|3d`, `panel=activity`, and `left=collapsed` or `right=collapsed`. Design, Circuit, Inspector, and expanded panels are defaults and are omitted. Simulation always resolves to the Circuit view. Invalid values and non-persistent `mode=bench` requests are removed. Selection, zoom, dialogs, undo history, simulation results, and private Bench state remain ephemeral.
+
 ## Local project library
 
 The launchpad lists projects by most recent update. Each row shows component, wire, and activity counts and supports open, rename, duplicate, export, and confirmed deletion. Import accepts validated ProbePilot JSON and always creates a new ID.
@@ -28,7 +30,9 @@ Bottom: design collaboration hint, simulation metrics, or virtual multimeter
 Status: tool readiness, counts, revision, hidden-state boundary
 ```
 
-The center workspace also provides `Circuit`, `PCB Preview`, and `3D Preview`. PCB and 3D derive from the same revision, use local generic physical packages, and do not expose the private bench fault. The physical inspector edits board dimensions, footprint, X/Y placement, rotation, and board side without incrementing the electrical revision. Reset restores deterministic auto-layout.
+The center workspace also provides `Circuit`, `PCB Preview`, and `3D Preview`. PCB and 3D derive from the same revision, use local generic physical packages, and do not expose the private bench fault. The 3D tab lazy-loads `CadViewer` for mouse pan, zoom, rotation, camera presets, layer controls, and GLTF export. Automatic rotation is disabled, so the camera stays stationary until the user manipulates it or selects a preset. A local six-angle SVG renderer appears if the WebGL path fails. The physical inspector edits board dimensions, footprint, X/Y placement, rotation, and board side without incrementing the electrical revision. Reset restores deterministic auto-layout.
+
+The Components and Inspector/Activity side panels collapse independently into narrow labelled rails. Their state is reflected in the URL so reload preserves the available center-workspace width. While CadViewer prepares its controller and geometry, an accessible centered spinner covers the otherwise empty dark canvas.
 
 ## Design mode
 
@@ -132,4 +136,6 @@ After human approval, the agent or human invokes verification. ProbePilot compar
 - non-color state labels;
 - native property inputs and test-point selects;
 - reduced-motion support;
+- accessible expanded/collapsed state on both workspace side-panel controls;
+- a polite loading status for the delayed 3D renderer;
 - desktop size guard rather than a broken mobile editor.

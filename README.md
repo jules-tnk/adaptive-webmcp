@@ -6,6 +6,8 @@ The agent can build, edit, inspect, and simulate the circuit. You create the ben
 
 The hosted application lives at [probepilot.jules-tnk.com](https://probepilot.jules-tnk.com).
 
+Watch the [two-minute WebMCP demo on YouTube](https://youtu.be/k9X7zKR62BA) or read the [challenge submission brief](experiments/probepilot-studio/docs/submission.md).
+
 ## Current application
 
 Source: [`experiments/probepilot-studio`](experiments/probepilot-studio)
@@ -40,4 +42,4 @@ The earlier WebMCP Capability Forge extension remains under [`experiments/deprec
 
 ## License
 
-MIT. See [`experiments/probepilot-studio/LICENSE`](experiments/probepilot-studio/LICENSE).
+MIT. See [`LICENSE`](LICENSE).

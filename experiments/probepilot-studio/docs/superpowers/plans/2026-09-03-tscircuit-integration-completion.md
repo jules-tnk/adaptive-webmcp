@@ -141,7 +141,7 @@
 - Produces: a lazy, bundled-only, error-contained six-angle SVG assembly preview with generic CAD geometry.
 
 - [x] Write tests for lazy loading, generic geometry, six angle presets, zoom, error containment, theme-safe output, and reduced motion.
-- [x] Evaluate `@tscircuit/3d-viewer`, document its undeclared peer-chain incompatibility, and avoid shipping the fragile dependency.
+- [x] Evaluate `@tscircuit/3d-viewer` and document its undeclared peer-chain incompatibility. A later approved hackathon follow-up ships it through a narrow core compatibility shim.
 - [x] Restrict rendering to generated local CAD bounding boxes with no model URLs or external assets.
 - [x] Lazy-load `circuit-json-to-simple-3d` with angle and zoom controls and preserve Circuit/PCB access on failure.
 - [x] Verify the initial route does not preload the 3D or WASM chunks and run focused/full/type/build.

@@ -85,6 +85,10 @@ This prevents a stale agent plan from overwriting a newer human decision.
 
 History stores semantic snapshots rather than pointer-motion events. A multi-component agent build is one undo entry. Node drag creates one entry on pointer release. Viewport, hover, selection, and animation are not history state.
 
+## Workspace URL state
+
+`WorkspaceUrlState` parses and serializes a bounded set of reloadable presentation state. React Router query parameters drive Design/Simulate mode, Circuit/PCB/3D view, Inspector/Activity selection, and the two panel rails. Store subscriptions update mode and view parameters when UI or WebMCP commands change them. Navigation tabs create browser-history entries, while panel expansion uses replacement navigation to avoid noisy Back/Forward history. Defaults and invalid combinations are canonicalized away.
+
 ## Simulation
 
 The Stage-one deterministic solver supports a single low-voltage DC path with:
@@ -131,4 +135,6 @@ The board is a semantic DOM/SVG implementation:
 
 The local repository stores public version-2 project records in localStorage: project metadata, electrical design, physical preview metadata, revision, and the newest 100 public activities. Version-1 records receive deterministic physical placement during migration. Import always creates a fresh local ID. Active private bench sessions are intentionally not persisted, so reopening starts in Design mode.
 
-`SimulationCoordinator` selects the deterministic engine or bundled local ngspice WASM, owns executed-engine attribution, and prevents stale results from entering state. Only fixture-tested mappings advertise SPICE support. `PhysicalPreviewAdapter` derives validated board, package, pad, port, trace, CAD bounding-box, and SVG elements from public design data. The lightweight six-angle 3D renderer is lazy-loaded; neither preview loads remote assets. Physical edits never change electrical revision.
+`SimulationCoordinator` selects the deterministic engine or bundled local ngspice WASM, owns executed-engine attribution, and prevents stale results from entering state. Only fixture-tested mappings advertise SPICE support. `PhysicalPreviewAdapter` derives validated board, package, pad, port, trace, CAD bounding-box, and SVG elements from public design data. `CadViewerScene` lazy-loads `@tscircuit/3d-viewer`, forces its bundled JSCAD engine to avoid the optional Manifold CDN loader, and denies every static model URL. A local six-angle SVG renderer remains the error fallback. Physical edits never change electrical revision.
+
+The viewer package imports `@tscircuit/core` at module load for an optional JSX-children conversion path. ProbePilot never uses that path because it supplies Circuit JSON directly, so Vite aliases that import to a narrow `Circuit` compatibility shim. This avoids bundling the core compiler and its undeclared peer chain while preserving the viewer’s Circuit JSON mode.

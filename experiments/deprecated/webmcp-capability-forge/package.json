@@ -1,0 +1,18 @@
+{
+  "name": "webmcp-capability-forge",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "check:rules": "node scripts/check-coding-rules.mjs",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "build": "pnpm -r build",
+    "verify": "pnpm check:rules && pnpm typecheck && pnpm test && pnpm build",
+    "dev:website": "pnpm --filter webmcp-capability-forge-website dev",
+    "test:e2e": "pnpm --filter webmcp-capability-forge-extension test:e2e"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2"
+  }
+}

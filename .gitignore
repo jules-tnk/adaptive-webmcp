@@ -1,0 +1,16 @@
+**/node_modules/
+**/dist/
+**/coverage/
+**/.vite/
+**/*.log
+**/.DS_Store
+**/.env
+**/.env.*
+!**/.env.example
+**/output/
+**/test-results/
+**/playwright-report/
+/.superpowers/
+/deployment/firebase/.firebase/
+/deployment/firebase/public/
+/deployment/firebase/production-public/

@@ -1,0 +1,3001 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TscircuitSymbolAdapter > renders 'Capacitor' in 'dark' mode while active is false 1`] = `
+<div
+  class="dark"
+>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.046 -0.054999999999999986 0.6920000000000001 0.7599999999999999"
+  >
+    <path
+      d="M 0.6 0.325 L 0.36 0.325"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.012"
+    />
+    <path
+      d="M 0.24 0.325 L 0 0.325"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.012"
+    />
+    <path
+      d="M 0.36 0.16498000000000002 L 0.36 0.48502"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.012"
+    />
+    <path
+      d="M 0.24 0.16498000000000002 L 0.24 0.48502"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.012"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.3"
+      y="0.08500000000000002"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.3"
+      y="0.565"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Capacitor' in 'dark' mode while active is true 1`] = `
+<div
+  class="dark"
+>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="true"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.046 -0.054999999999999986 0.6920000000000001 0.7599999999999999"
+  >
+    <path
+      d="M 0.6 0.325 L 0.36 0.325"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.012"
+    />
+    <path
+      d="M 0.24 0.325 L 0 0.325"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.012"
+    />
+    <path
+      d="M 0.36 0.16498000000000002 L 0.36 0.48502"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.012"
+    />
+    <path
+      d="M 0.24 0.16498000000000002 L 0.24 0.48502"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.012"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.3"
+      y="0.08500000000000002"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.3"
+      y="0.565"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Capacitor' in 'light' mode while active is false 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.046 -0.054999999999999986 0.6920000000000001 0.7599999999999999"
+  >
+    <path
+      d="M 0.6 0.325 L 0.36 0.325"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.012"
+    />
+    <path
+      d="M 0.24 0.325 L 0 0.325"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.012"
+    />
+    <path
+      d="M 0.36 0.16498000000000002 L 0.36 0.48502"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.012"
+    />
+    <path
+      d="M 0.24 0.16498000000000002 L 0.24 0.48502"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.012"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.3"
+      y="0.08500000000000002"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.3"
+      y="0.565"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Capacitor' in 'light' mode while active is true 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="true"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.046 -0.054999999999999986 0.6920000000000001 0.7599999999999999"
+  >
+    <path
+      d="M 0.6 0.325 L 0.36 0.325"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.012"
+    />
+    <path
+      d="M 0.24 0.325 L 0 0.325"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.012"
+    />
+    <path
+      d="M 0.36 0.16498000000000002 L 0.36 0.48502"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.012"
+    />
+    <path
+      d="M 0.24 0.16498000000000002 L 0.24 0.48502"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.012"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.3"
+      y="0.08500000000000002"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.3"
+      y="0.565"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Diode' in 'dark' mode while active is false 1`] = `
+<div
+  class="dark"
+>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.10000000000000003 1.1400000000000001 0.8200000000000001"
+  >
+    <path
+      d="M 0.66 0.27 L 0.4 0.4"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4 0.13 L 0.66 0.27"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4 0.4 L 0.4 0.13"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.66 0.13 L 0.66 0.4"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4 0.27 L 0 0.27"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 1.04 0.27 L 0.67 0.27"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.51"
+      y="0.03999999999999998"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.52"
+      y="0.5800000000000001"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Diode' in 'dark' mode while active is true 1`] = `
+<div
+  class="dark"
+>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="true"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.10000000000000003 1.1400000000000001 0.8200000000000001"
+  >
+    <path
+      d="M 0.66 0.27 L 0.4 0.4"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4 0.13 L 0.66 0.27"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4 0.4 L 0.4 0.13"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.66 0.13 L 0.66 0.4"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4 0.27 L 0 0.27"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 1.04 0.27 L 0.67 0.27"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.51"
+      y="0.03999999999999998"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.52"
+      y="0.5800000000000001"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Diode' in 'light' mode while active is false 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.10000000000000003 1.1400000000000001 0.8200000000000001"
+  >
+    <path
+      d="M 0.66 0.27 L 0.4 0.4"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4 0.13 L 0.66 0.27"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4 0.4 L 0.4 0.13"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.66 0.13 L 0.66 0.4"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4 0.27 L 0 0.27"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 1.04 0.27 L 0.67 0.27"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.51"
+      y="0.03999999999999998"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.52"
+      y="0.5800000000000001"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Diode' in 'light' mode while active is true 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="true"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.10000000000000003 1.1400000000000001 0.8200000000000001"
+  >
+    <path
+      d="M 0.66 0.27 L 0.4 0.4"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4 0.13 L 0.66 0.27"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4 0.4 L 0.4 0.13"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.66 0.13 L 0.66 0.4"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4 0.27 L 0 0.27"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 1.04 0.27 L 0.67 0.27"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.51"
+      y="0.03999999999999998"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.52"
+      y="0.5800000000000001"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Ground' in 'dark' mode while active is false 1`] = `
+<div
+  class="dark"
+>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.13999999999999999 -0.04 0.68 0.79"
+  >
+    <path
+      d="M 0.22999999999999998 0.010000000000000009 L 0.22 0.33999999999999997"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0 0.34 L 0.44 0.33999999999999997"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.04999999999999999 0.42 L 0.39 0.42"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.16000000000000003 0.49 L 0.28 0.49"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.2"
+      y="0.61"
+    >
+      {REF}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Ground' in 'dark' mode while active is true 1`] = `
+<div
+  class="dark"
+>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="true"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.13999999999999999 -0.04 0.68 0.79"
+  >
+    <path
+      d="M 0.22999999999999998 0.010000000000000009 L 0.22 0.33999999999999997"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0 0.34 L 0.44 0.33999999999999997"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.04999999999999999 0.42 L 0.39 0.42"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.16000000000000003 0.49 L 0.28 0.49"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.2"
+      y="0.61"
+    >
+      {REF}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Ground' in 'light' mode while active is false 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.13999999999999999 -0.04 0.68 0.79"
+  >
+    <path
+      d="M 0.22999999999999998 0.010000000000000009 L 0.22 0.33999999999999997"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0 0.34 L 0.44 0.33999999999999997"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.04999999999999999 0.42 L 0.39 0.42"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.16000000000000003 0.49 L 0.28 0.49"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.2"
+      y="0.61"
+    >
+      {REF}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Ground' in 'light' mode while active is true 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="true"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.13999999999999999 -0.04 0.68 0.79"
+  >
+    <path
+      d="M 0.22999999999999998 0.010000000000000009 L 0.22 0.33999999999999997"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0 0.34 L 0.44 0.33999999999999997"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.04999999999999999 0.42 L 0.39 0.42"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.16000000000000003 0.49 L 0.28 0.49"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.2"
+      y="0.61"
+    >
+      {REF}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'N-channel MOSFET' in 'dark' mode while active is false 1`] = `
+<div
+  class="dark"
+>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.05 0.97 1.2000000000000002"
+  >
+    <path
+      d="M 0 0.65 L 0.47 0.66"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.72 0 L 0.72 0.44000000000000006"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.73 1.1 L 0.73 0.56"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.44000000000000006 L 0.73 0.44000000000000006"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.4 L 0.51 0.48000000000000004"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.65 L 0.73 0.65"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.63 L 0.51 0.7000000000000001"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.52 L 0.51 0.5900000000000001"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.69 0.5900000000000001 L 0.69 0.52 L 0.62 0.55 L 0.69 0.5900000000000001"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.55 L 0.73 0.56"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.47 0.44000000000000006 L 0.47 0.66"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <circle
+      cx="0.58"
+      cy="0.55"
+      fill="none"
+      r="0.29"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="middle"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="end"
+      x="0.42"
+      y="0.19000000000000006"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="middle"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="end"
+      x="0.42"
+      y="0.97"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'N-channel MOSFET' in 'dark' mode while active is true 1`] = `
+<div
+  class="dark"
+>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="true"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.05 0.97 1.2000000000000002"
+  >
+    <path
+      d="M 0 0.65 L 0.47 0.66"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.72 0 L 0.72 0.44000000000000006"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.73 1.1 L 0.73 0.56"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.44000000000000006 L 0.73 0.44000000000000006"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.4 L 0.51 0.48000000000000004"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.65 L 0.73 0.65"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.63 L 0.51 0.7000000000000001"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.52 L 0.51 0.5900000000000001"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.69 0.5900000000000001 L 0.69 0.52 L 0.62 0.55 L 0.69 0.5900000000000001"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.55 L 0.73 0.56"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.47 0.44000000000000006 L 0.47 0.66"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <circle
+      cx="0.58"
+      cy="0.55"
+      fill="none"
+      r="0.29"
+      stroke="hsl(var(--primary))"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="middle"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="end"
+      x="0.42"
+      y="0.19000000000000006"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="middle"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="end"
+      x="0.42"
+      y="0.97"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'N-channel MOSFET' in 'light' mode while active is false 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.05 0.97 1.2000000000000002"
+  >
+    <path
+      d="M 0 0.65 L 0.47 0.66"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.72 0 L 0.72 0.44000000000000006"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.73 1.1 L 0.73 0.56"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.44000000000000006 L 0.73 0.44000000000000006"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.4 L 0.51 0.48000000000000004"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.65 L 0.73 0.65"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.63 L 0.51 0.7000000000000001"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.52 L 0.51 0.5900000000000001"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.69 0.5900000000000001 L 0.69 0.52 L 0.62 0.55 L 0.69 0.5900000000000001"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.55 L 0.73 0.56"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.47 0.44000000000000006 L 0.47 0.66"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <circle
+      cx="0.58"
+      cy="0.55"
+      fill="none"
+      r="0.29"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="middle"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="end"
+      x="0.42"
+      y="0.19000000000000006"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="middle"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="end"
+      x="0.42"
+      y="0.97"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'N-channel MOSFET' in 'light' mode while active is true 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="true"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.05 0.97 1.2000000000000002"
+  >
+    <path
+      d="M 0 0.65 L 0.47 0.66"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.72 0 L 0.72 0.44000000000000006"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.73 1.1 L 0.73 0.56"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.44000000000000006 L 0.73 0.44000000000000006"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.4 L 0.51 0.48000000000000004"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.65 L 0.73 0.65"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.63 L 0.51 0.7000000000000001"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.52 L 0.51 0.5900000000000001"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.69 0.5900000000000001 L 0.69 0.52 L 0.62 0.55 L 0.69 0.5900000000000001"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.51 0.55 L 0.73 0.56"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.47 0.44000000000000006 L 0.47 0.66"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <circle
+      cx="0.58"
+      cy="0.55"
+      fill="none"
+      r="0.29"
+      stroke="hsl(var(--primary))"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="middle"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="end"
+      x="0.42"
+      y="0.19000000000000006"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="middle"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="end"
+      x="0.42"
+      y="0.97"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'NPN BJT' in 'dark' mode while active is false 1`] = `
+<div
+  class="dark"
+>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.21500000000000002 1.3494553499999997 1.205"
+  >
+    <path
+      d="M 0.55 0.875 L 0.56 0.41500000000000004"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.28 0.405 L 0.8300000000000001 0.405"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.31000000000000005 0.195 L 0.44000000000000006 0.395"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.79 0.18500000000000005 L 0.66 0.385"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.30000000000000004 0.18500000000000005 L 0 0.185"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 1.1 0.1850000000000001 L 0.8 0.18500000000000005"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.65 0.28500000000000003 L 0.75 0.35500000000000004 L 0.75 0.255 L 0.65 0.28500000000000003"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <circle
+      cx="0.55"
+      cy="0.335"
+      fill="none"
+      r="0.29"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.9594553499999996"
+      y="-0.07500000000000001"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.9594553499999996"
+      y="0.775"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'NPN BJT' in 'dark' mode while active is true 1`] = `
+<div
+  class="dark"
+>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="true"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.21500000000000002 1.3494553499999997 1.205"
+  >
+    <path
+      d="M 0.55 0.875 L 0.56 0.41500000000000004"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.28 0.405 L 0.8300000000000001 0.405"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.31000000000000005 0.195 L 0.44000000000000006 0.395"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.79 0.18500000000000005 L 0.66 0.385"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.30000000000000004 0.18500000000000005 L 0 0.185"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 1.1 0.1850000000000001 L 0.8 0.18500000000000005"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.65 0.28500000000000003 L 0.75 0.35500000000000004 L 0.75 0.255 L 0.65 0.28500000000000003"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <circle
+      cx="0.55"
+      cy="0.335"
+      fill="none"
+      r="0.29"
+      stroke="hsl(var(--primary))"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.9594553499999996"
+      y="-0.07500000000000001"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.9594553499999996"
+      y="0.775"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'NPN BJT' in 'light' mode while active is false 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.21500000000000002 1.3494553499999997 1.205"
+  >
+    <path
+      d="M 0.55 0.875 L 0.56 0.41500000000000004"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.28 0.405 L 0.8300000000000001 0.405"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.31000000000000005 0.195 L 0.44000000000000006 0.395"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.79 0.18500000000000005 L 0.66 0.385"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.30000000000000004 0.18500000000000005 L 0 0.185"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 1.1 0.1850000000000001 L 0.8 0.18500000000000005"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.65 0.28500000000000003 L 0.75 0.35500000000000004 L 0.75 0.255 L 0.65 0.28500000000000003"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <circle
+      cx="0.55"
+      cy="0.335"
+      fill="none"
+      r="0.29"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.9594553499999996"
+      y="-0.07500000000000001"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.9594553499999996"
+      y="0.775"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'NPN BJT' in 'light' mode while active is true 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="true"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.21500000000000002 1.3494553499999997 1.205"
+  >
+    <path
+      d="M 0.55 0.875 L 0.56 0.41500000000000004"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.28 0.405 L 0.8300000000000001 0.405"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.31000000000000005 0.195 L 0.44000000000000006 0.395"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.79 0.18500000000000005 L 0.66 0.385"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.30000000000000004 0.18500000000000005 L 0 0.185"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 1.1 0.1850000000000001 L 0.8 0.18500000000000005"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.65 0.28500000000000003 L 0.75 0.35500000000000004 L 0.75 0.255 L 0.65 0.28500000000000003"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <circle
+      cx="0.55"
+      cy="0.335"
+      fill="none"
+      r="0.29"
+      stroke="hsl(var(--primary))"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.9594553499999996"
+      y="-0.07500000000000001"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.9594553499999996"
+      y="0.775"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Op-amp' in 'dark' mode while active is false 1`] = `
+<div
+  class="dark"
+>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.04999999999999989 -0.05 1.21 0.8800000000000001"
+  >
+    <path
+      d="M 0.7100000000000001 0.4 L 0.25000000000000006 0.65"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.25000000000000006 0.13 L 0.7100000000000001 0.4"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.25000000000000006 0.65 L 0.25000000000000006 0.13"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.25000000000000006 0.26 L 1.1102230246251565e-16 0.26"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.25000000000000006 0.53 L 1.1102230246251565e-16 0.53"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 1 0.4 L 0.7200000000000001 0.4"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4700000000000001 0 L 0.4700000000000001 0.26"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4800000000000001 0.78 L 0.4800000000000001 0.53"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.38000000000000006 0.26 L 0.30000000000000004 0.26"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.38000000000000006 0.53 L 0.30000000000000004 0.53"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.3400000000000001 0.3 L 0.3400000000000001 0.22"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.8200000000000001"
+      y="0.12"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.8200000000000001"
+      y="0.6799999999999999"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Op-amp' in 'dark' mode while active is true 1`] = `
+<div
+  class="dark"
+>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="true"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.04999999999999989 -0.05 1.21 0.8800000000000001"
+  >
+    <path
+      d="M 0.7100000000000001 0.4 L 0.25000000000000006 0.65"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.25000000000000006 0.13 L 0.7100000000000001 0.4"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.25000000000000006 0.65 L 0.25000000000000006 0.13"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.25000000000000006 0.26 L 1.1102230246251565e-16 0.26"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.25000000000000006 0.53 L 1.1102230246251565e-16 0.53"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 1 0.4 L 0.7200000000000001 0.4"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4700000000000001 0 L 0.4700000000000001 0.26"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4800000000000001 0.78 L 0.4800000000000001 0.53"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.38000000000000006 0.26 L 0.30000000000000004 0.26"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.38000000000000006 0.53 L 0.30000000000000004 0.53"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.3400000000000001 0.3 L 0.3400000000000001 0.22"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.8200000000000001"
+      y="0.12"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.8200000000000001"
+      y="0.6799999999999999"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Op-amp' in 'light' mode while active is false 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.04999999999999989 -0.05 1.21 0.8800000000000001"
+  >
+    <path
+      d="M 0.7100000000000001 0.4 L 0.25000000000000006 0.65"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.25000000000000006 0.13 L 0.7100000000000001 0.4"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.25000000000000006 0.65 L 0.25000000000000006 0.13"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.25000000000000006 0.26 L 1.1102230246251565e-16 0.26"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.25000000000000006 0.53 L 1.1102230246251565e-16 0.53"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 1 0.4 L 0.7200000000000001 0.4"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4700000000000001 0 L 0.4700000000000001 0.26"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4800000000000001 0.78 L 0.4800000000000001 0.53"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.38000000000000006 0.26 L 0.30000000000000004 0.26"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.38000000000000006 0.53 L 0.30000000000000004 0.53"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.3400000000000001 0.3 L 0.3400000000000001 0.22"
+      fill="hsl(var(--symbol-stroke))"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.8200000000000001"
+      y="0.12"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.8200000000000001"
+      y="0.6799999999999999"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Op-amp' in 'light' mode while active is true 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="true"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.04999999999999989 -0.05 1.21 0.8800000000000001"
+  >
+    <path
+      d="M 0.7100000000000001 0.4 L 0.25000000000000006 0.65"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.25000000000000006 0.13 L 0.7100000000000001 0.4"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.25000000000000006 0.65 L 0.25000000000000006 0.13"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.25000000000000006 0.26 L 1.1102230246251565e-16 0.26"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.25000000000000006 0.53 L 1.1102230246251565e-16 0.53"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 1 0.4 L 0.7200000000000001 0.4"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4700000000000001 0 L 0.4700000000000001 0.26"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.4800000000000001 0.78 L 0.4800000000000001 0.53"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.38000000000000006 0.26 L 0.30000000000000004 0.26"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.38000000000000006 0.53 L 0.30000000000000004 0.53"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.3400000000000001 0.3 L 0.3400000000000001 0.22"
+      fill="hsl(var(--primary))"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.8200000000000001"
+      y="0.12"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.8200000000000001"
+      y="0.6799999999999999"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Resistor' in 'dark' mode while active is false 1`] = `
+<div
+  class="dark"
+>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.1295 1.04 0.6799106999999991"
+  >
+    <path
+      d="M 0.94 0.1999553499999995 L 0.6799999999999999 0.1999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.26 0.1999553499999995 L 0 0.1999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.6799999999999999 0.1999553499999995 L 0.6599999999999999 0.2899553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.27999999999999997 0.0999553499999995 L 0.26 0.1999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.6599999999999999 0.2899553499999995 L 0.6 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.5499999999999999 0.2899553499999995 L 0.6 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.5499999999999999 0.2899553499999995 L 0.5 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.43999999999999995 0.2899553499999995 L 0.5 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.43999999999999995 0.2899553499999995 L 0.38999999999999996 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.33999999999999997 0.2899553499999995 L 0.38999999999999996 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.33999999999999997 0.2899553499999995 L 0.27999999999999997 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.47"
+      y="0.01050000000000001"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.47"
+      y="0.410410699999999"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Resistor' in 'dark' mode while active is true 1`] = `
+<div
+  class="dark"
+>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="true"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.1295 1.04 0.6799106999999991"
+  >
+    <path
+      d="M 0.94 0.1999553499999995 L 0.6799999999999999 0.1999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.26 0.1999553499999995 L 0 0.1999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.6799999999999999 0.1999553499999995 L 0.6599999999999999 0.2899553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.27999999999999997 0.0999553499999995 L 0.26 0.1999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.6599999999999999 0.2899553499999995 L 0.6 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.5499999999999999 0.2899553499999995 L 0.6 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.5499999999999999 0.2899553499999995 L 0.5 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.43999999999999995 0.2899553499999995 L 0.5 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.43999999999999995 0.2899553499999995 L 0.38999999999999996 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.33999999999999997 0.2899553499999995 L 0.38999999999999996 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.33999999999999997 0.2899553499999995 L 0.27999999999999997 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.47"
+      y="0.01050000000000001"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.47"
+      y="0.410410699999999"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Resistor' in 'light' mode while active is false 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.1295 1.04 0.6799106999999991"
+  >
+    <path
+      d="M 0.94 0.1999553499999995 L 0.6799999999999999 0.1999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.26 0.1999553499999995 L 0 0.1999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.6799999999999999 0.1999553499999995 L 0.6599999999999999 0.2899553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.27999999999999997 0.0999553499999995 L 0.26 0.1999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.6599999999999999 0.2899553499999995 L 0.6 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.5499999999999999 0.2899553499999995 L 0.6 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.5499999999999999 0.2899553499999995 L 0.5 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.43999999999999995 0.2899553499999995 L 0.5 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.43999999999999995 0.2899553499999995 L 0.38999999999999996 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.33999999999999997 0.2899553499999995 L 0.38999999999999996 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.33999999999999997 0.2899553499999995 L 0.27999999999999997 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.47"
+      y="0.01050000000000001"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.47"
+      y="0.410410699999999"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'Resistor' in 'light' mode while active is true 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="true"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.1295 1.04 0.6799106999999991"
+  >
+    <path
+      d="M 0.94 0.1999553499999995 L 0.6799999999999999 0.1999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.26 0.1999553499999995 L 0 0.1999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.6799999999999999 0.1999553499999995 L 0.6599999999999999 0.2899553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.27999999999999997 0.0999553499999995 L 0.26 0.1999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.6599999999999999 0.2899553499999995 L 0.6 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.5499999999999999 0.2899553499999995 L 0.6 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.5499999999999999 0.2899553499999995 L 0.5 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.43999999999999995 0.2899553499999995 L 0.5 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.43999999999999995 0.2899553499999995 L 0.38999999999999996 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.33999999999999997 0.2899553499999995 L 0.38999999999999996 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.33999999999999997 0.2899553499999995 L 0.27999999999999997 0.0999553499999995"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.47"
+      y="0.01050000000000001"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.47"
+      y="0.410410699999999"
+    >
+      {VAL}
+    </text>
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'SPST switch' in 'dark' mode while active is false 1`] = `
+<div
+  class="dark"
+>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.14 0.8600000000000001 0.78"
+  >
+    <path
+      d="M 0 0.25 L 0.26 0.26"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.31 0.24 L 0.48 0.10999999999999999"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.5 0.26 L 0.76 0.25"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.38"
+      y="0"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.38"
+      y="0.5"
+    >
+      {VAL}
+    </text>
+    <circle
+      cx="0.48"
+      cy="0.25"
+      fill="none"
+      r="0.02"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-width="0.02"
+    />
+    <circle
+      cx="0.28"
+      cy="0.25"
+      fill="none"
+      r="0.02"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-width="0.02"
+    />
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'SPST switch' in 'dark' mode while active is true 1`] = `
+<div
+  class="dark"
+>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="true"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.14 0.8600000000000001 0.78"
+  >
+    <path
+      d="M 0 0.25 L 0.26 0.26"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.31 0.24 L 0.48 0.10999999999999999"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.5 0.26 L 0.76 0.25"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.38"
+      y="0"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.38"
+      y="0.5"
+    >
+      {VAL}
+    </text>
+    <circle
+      cx="0.48"
+      cy="0.25"
+      fill="none"
+      r="0.02"
+      stroke="hsl(var(--primary))"
+      stroke-width="0.02"
+    />
+    <circle
+      cx="0.28"
+      cy="0.25"
+      fill="none"
+      r="0.02"
+      stroke="hsl(var(--primary))"
+      stroke-width="0.02"
+    />
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'SPST switch' in 'light' mode while active is false 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="false"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.14 0.8600000000000001 0.78"
+  >
+    <path
+      d="M 0 0.25 L 0.26 0.26"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.31 0.24 L 0.48 0.10999999999999999"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.5 0.26 L 0.76 0.25"
+      fill="none"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.38"
+      y="0"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--symbol-stroke))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.38"
+      y="0.5"
+    >
+      {VAL}
+    </text>
+    <circle
+      cx="0.48"
+      cy="0.25"
+      fill="none"
+      r="0.02"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-width="0.02"
+    />
+    <circle
+      cx="0.28"
+      cy="0.25"
+      fill="none"
+      r="0.02"
+      stroke="hsl(var(--symbol-stroke))"
+      stroke-width="0.02"
+    />
+  </svg>
+</div>
+`;
+
+exports[`TscircuitSymbolAdapter > renders 'SPST switch' in 'light' mode while active is true 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="h-9 w-24"
+    data-active="true"
+    preserveAspectRatio="xMidYMid meet"
+    viewBox="-0.05 -0.14 0.8600000000000001 0.78"
+  >
+    <path
+      d="M 0 0.25 L 0.26 0.26"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.31 0.24 L 0.48 0.10999999999999999"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <path
+      d="M 0.5 0.26 L 0.76 0.25"
+      fill="none"
+      stroke="hsl(var(--primary))"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="0.02"
+    />
+    <text
+      dominant-baseline="text-after-edge"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.38"
+      y="0"
+    >
+      {REF}
+    </text>
+    <text
+      dominant-baseline="hanging"
+      fill="hsl(var(--primary))"
+      font-size="0.1"
+      text-anchor="middle"
+      x="0.38"
+      y="0.5"
+    >
+      {VAL}
+    </text>
+    <circle
+      cx="0.48"
+      cy="0.25"
+      fill="none"
+      r="0.02"
+      stroke="hsl(var(--primary))"
+      stroke-width="0.02"
+    />
+    <circle
+      cx="0.28"
+      cy="0.25"
+      fill="none"
+      r="0.02"
+      stroke="hsl(var(--primary))"
+      stroke-width="0.02"
+    />
+  </svg>
+</div>
+`;

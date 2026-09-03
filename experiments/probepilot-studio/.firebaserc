@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "jules-tnk-space-web"
+  },
+  "targets": {
+    "jules-tnk-space-web": {
+      "hosting": {
+        "probepilot": [
+          "probepilot-jules-tnk"
+        ]
+      }
+    }
+  }
+}

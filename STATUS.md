@@ -11,9 +11,10 @@ ProbePilot Studio is the active project in this repository. The extension-based 
 - TypeScript: passing
 - Production build: passing
 - Chrome verification: passing with no console errors or warnings
-- GitHub repository: private publication in progress
-- Firebase Hosting: deployment in progress
-- Public domain: `probepilot.jules-tnk.com`
+- GitHub repository: private at `https://github.com/jules-tnk/adaptive-webmcp`
+- GitHub Actions: ProbePilot CI passing on `main`
+- Firebase Hosting: deployed to site `probepilot-jules-tnk` in project `jules-tnk-space-web`
+- Public domain: `https://probepilot.jules-tnk.com` returns the production build over HTTPS
 
 ## Implemented surface
 

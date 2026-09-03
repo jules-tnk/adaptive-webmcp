@@ -22,6 +22,7 @@
 
 ## Review and quality
 
+- [`deployment.md`](deployment.md) — Firebase Hosting target, custom domain, DNS, and release checks.
 - [`testing.md`](testing.md) — automated test strategy.
 - [`review-checklist.md`](review-checklist.md) — focused code and product review guide.
 - [`known-limitations.md`](known-limitations.md) — intentional MVP constraints.

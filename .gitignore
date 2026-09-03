@@ -2,6 +2,7 @@
 **/dist/
 **/coverage/
 **/.vite/
+**/.firebase/
 **/*.log
 **/.DS_Store
 **/.env
